@@ -34,3 +34,10 @@ if (process.env.NODE_ENV === 'dev') {
     urlDB = process.env.MONGO_URL; //MONGODB_URL
 }
 process.env.URLDB = urlDB;
+
+
+//==================================
+//   Client ID
+//==================================
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '49366928428-2hhv317g8gka7o86jk649j4f0e1pu5rc.apps.googleusercontent.com';
