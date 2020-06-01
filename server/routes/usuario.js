@@ -43,7 +43,7 @@ app.get('/usuario', verificaToken, (req, res) => {
                     usuarios
                 });
 
-            })
+            });
 
 
         })
@@ -116,7 +116,7 @@ app.put('/usuario/:id', [verificaToken, verificaAdminRole], function(req, res) {
             usuario: usuarioDB
         });
 
-    })
+    });
 
 
 });
